@@ -63,7 +63,7 @@ h3.detail {
 .container {
     max-width: 1000px;
     padding: 16px;
-    margin: 25px auto 25px;
+    margin: auto;
     background-color: #ffffff;
 }
 
@@ -110,6 +110,7 @@ h3.detail {
     padding: 0 30px 0 30px;
     box-sizing: border-box;
     margin: auto;
+    margin-bottom: 40px;
     width: 100%;
     font-size: 20px;
     color: #0f0f0f;
