@@ -48,6 +48,14 @@ body {
     height: 50px;
 }
 
+.print a {
+    background-image: url(img/pdf.png);
+    background-size: cover;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
 h1.nama {
     color: #555555;
 }
@@ -239,5 +247,14 @@ h3.detail {
     }
     .container .kartunama .detail {
         margin-top: 20px;
+    }
+    .sosmed {
+        left: -30px;
+    }
+    .email a:hover,
+    .whatsapp a:hover,
+    .print a:hover {
+        position: relative;
+        left: 30px;
     }
 }
